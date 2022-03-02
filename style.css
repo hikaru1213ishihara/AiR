@@ -199,6 +199,7 @@ footer{
 footer p{
     font-size:  2vw;
     color: white;
+    line-height: 5vw;
 }
 
 .container{
@@ -217,7 +218,10 @@ footer p{
     font-size: 2vw;
     color: white;
     font-weight: bold;
-    line-height: 6vw;
+}
+
+.footer-nav li:nth-of-type(n+2){
+    margin-top: 5vw;
 }
 
 
