@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: "メイリオ","ヒラギノ角ゴシック ProN";
+}
+
+li{
+    list-style: none;
+    margin: 0;
+}
+a{
+    color : inherit;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    font-size: 2vw;
+    margin: 30px 0;
+    text-align: center;
+}
+p{
+    margin: 0;
+}
+a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+ /* MOREボタン */
+ .more{
+     text-align: center;
+     padding: 1vw;
+     border: 4px solid #31b7ff;
+     width: 15%;
+     margin: 0 auto 0;
+ }
+ .more a{
+     font-size: 2vw;
+     font-weight: bold;
+     color: #31b7ff;
+ }
+
+/* ヘッダー */
+.logosvg{
+    height: 60px;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+    position: relative;
+}
+
+header h1{
+    height: 60px;
+    margin-left: 20px;
+}
+
+header ul{
+    background-color: #31b7ff;
+    height: 80px;
+    width: 300px;
+    margin-left: auto;
+    display: table;
+}
+
+header li{
+    display: table-cell;
+    line-height: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header ul img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* メインビジュアル */
+.mainvisual{
+    margin-top: -80px;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.mainvisual img{
+    width: 87%;
+}
+
+.copy1{
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    font-size: 2vw;
+    margin-top: 80px;
+    text-align: center;
+    margin: 80px auto 0;
+}
+.align{
+    align-items: center;
+    display: flex;
+    width: 13%;
+}
+.copy1 span:last-child{
+    margin-top: 2vw;
+}
+
+.copy2{
+    position: absolute;
+    transform: translateY(50%);
+    right: 0;
+    bottom: 0;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+/* NEWIN */
+.NEWIN{
+    margin: 80px auto 0;
+    width: 90%;
+}
+
+.product-grid{
+    justify-content:space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.product-item{
+    text-align: center;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.product-item img{
+    width: 100%;
+}
+
+.product-item p{
+    font-size: 1vw;
+}
+
+/* CAMPAIGN */
+.CAMPAIGN{
+    width: 90%;
+    margin: 80px auto 0;
+}
+
+.campaign-grid{
+    justify-content:space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.campaign-item{
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.campaign-item img{
+    width: 100%;
+}
+
+/* SHOP */
+.SHOP{
+    margin: 80px 0 0;
+}
+.SHOP img{
+    width: 100%;
+}
+.SHOP p{
+    font-size: 2vW;
+    width: 65%;
+    margin: 30px auto 0;
+    font-weight: 100;
+    line-height: 4vw;
+}
+
+/* フッター */
+footer{
+    background-color: #31b7ff;
+    margin-top: 80px;
+    width: 100%;
+}
+
+footer p{
+    font-size:  2vw;
+    color: white;
+}
+
+.container{
+    display: flex;
+}
+
+.footer-nav{
+    display: flex;
+    margin-left: auto;
+}
+
+.footer-nav ul{
+    margin-left: 5vw;
+}
+.footer-nav li{
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+    line-height: 6vw;
+}
+
+
+.copy{
+    text-align: center;
+    margin-top: 60px;
+    border-top: 2px solid white;
+}
+.copy p{
+    font-size: 1vw;
+    margin-top: 1vW;
+}
+
+.inner{
+    margin: 0 auto;
+    padding: 5vW;
+    width: 80%;
+}
